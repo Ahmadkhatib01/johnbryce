@@ -1,0 +1,100 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.error {
+    color: #fff000
+}
+
+.mainColor {
+    color: #909090;
+    font-family: HeaderFont;
+    font-size: xx-large;
+
+}
+
+.navStyle {
+    border-bottom: 1px solid #909090;
+}
+
+.navBox {
+    width: 100vw;
+    text-align: center;
+}
+
+.mainColor:hover {
+    color: #fff;
+}
+
+@font-face {
+    font-family: HeaderFont;
+    src: url('Assets/Fonts/Oswald-Heavy.ttf');
+}
+
+
+.formContainer {
+    max-width: 450px;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardsContainer {
+    max-width: 450px;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cardsContainer>div {
+    width: 450px;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+.cardsContainer>div>img {
+    width: 440px;
+}
+
+
+/* Form input styling */
+
+input {
+    border: none;
+    text-decoration: none;
+    border-bottom: 1px solid #808080;
+    color: #fff;
+    background-color: transparent;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 300px;
+}
+
+.formButton {
+    border: none;
+    text-decoration: none;
+    border-bottom: 1px solid #808080;
+    color: #fff;
+    background-color: transparent;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 300px;
+}
+
+.formButton:hover {
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000;
+    border-radius: 20px;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 1px solid #fff;
+}

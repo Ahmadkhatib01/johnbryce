@@ -1,0 +1,39 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+.mainColor {
+    color: #909090;
+    font-family: HeaderFont;
+    font-size: xx-large;
+
+}
+
+
+.navBox {
+    width: 100%;
+    text-align: center;
+}
+
+.mainColor:hover {
+    color: #fff;
+}
+
+@font-face {
+    font-family: HeaderFont;
+    src: url('Assets/Fonts/Oswald-Heavy.ttf');
+}
+
+
+.formContainer {
+    background-color: red;
+    max-width: 550px;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
